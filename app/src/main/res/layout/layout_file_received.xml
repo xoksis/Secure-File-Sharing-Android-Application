@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cv_profileImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pdf" />
+
+        <TextView
+            android:id="@+id/tv_fileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/cv_profileImage"
+            android:padding="7dp"
+            android:text="File shared"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_fileSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_fileName"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="16dp"
+            android:padding="7dp"
+            android:text="sender: Rimsha"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

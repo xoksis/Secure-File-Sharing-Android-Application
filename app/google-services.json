@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "699408889732",
+    "firebase_url": "https://filetransfer-cfb3c-default-rtdb.firebaseio.com",
+    "project_id": "filetransfer-cfb3c",
+    "storage_bucket": "filetransfer-cfb3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699408889732:android:715ec892086c38b149cfd1",
+        "android_client_info": {
+          "package_name": "com.example.securefiletransfer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8OSLMnWLht2L9l03ZKbmpGz3442AhN-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

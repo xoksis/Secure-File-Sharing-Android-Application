@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SecureFileTransfer" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue</item>
+         <item name="colorOnPrimary">@color/blue</item>
+        
+         <item name="colorSecondary">@color/blue</item>
+         <item name="colorOnSecondary">@color/blue</item>
+        
+        <item name="android:statusBarColor">@color/blue</item>
+        
+        
+    </style>
+
+    <style name="Theme.SecureFileTransfer" parent="Base.Theme.SecureFileTransfer" />
+</resources>

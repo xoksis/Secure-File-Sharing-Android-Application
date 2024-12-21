@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".file_share.activities.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/ll_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_restAppBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cv_showAllReceivedFiles"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="21dp"
+            android:layout_toStartOf="@id/cv_fileReceived"
+            android:src="@drawable/file" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cv_fileReceived"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_toStartOf="@id/cv_user_profile"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/received" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cv_user_profile"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/avatar" />
+
+        <!--Add Profile here.-->
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_showAllUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_appBar"
+        tools:listitem="@layout/layout_users" />
+
+</RelativeLayout>
